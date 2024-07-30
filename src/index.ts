@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Xior } from './xior';
 
 export * from './xior';

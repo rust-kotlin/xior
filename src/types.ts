@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { XiorInstance } from './xior';
 
 export interface XiorRequestConfig<T = any> extends Omit<RequestInit, 'body'> {

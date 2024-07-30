@@ -1,14 +1,5 @@
-import {
-  ClearableSignal,
-  XiorTimeoutError,
-  anySignal,
-  isAbsoluteURL,
-  XiorError,
-  merge,
-  joinPath,
-  encodeParams,
-  // @ts-ignore
-} from 'xior/utils';
+/* eslint-disable prettier/prettier */
+import { fetch } from '@tauri-apps/plugin-http';
 
 import defaultRequestInterceptor from './interceptors';
 import type {
@@ -19,6 +10,16 @@ import type {
   XiorResponse,
   XiorResponseInterceptorConfig,
 } from './types';
+import {
+  ClearableSignal,
+  XiorError,
+  XiorTimeoutError,
+  anySignal,
+  encodeParams,
+  isAbsoluteURL,
+  joinPath,
+  merge,
+} from './utils';
 
 const undefinedValue = undefined;
 const supportAbortController = typeof AbortController !== `${undefinedValue}`;

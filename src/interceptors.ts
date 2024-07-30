@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // @ts-ignore
 import { encodeParams, merge } from 'xior/utils';
 

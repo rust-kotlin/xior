@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import type { XiorRequestConfig, XiorResponse } from './types';
 
 export * from './any-signals';

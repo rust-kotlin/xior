@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /** Code Ref: https://github.com/jacobheun/any-signal/pull/40/files */
 
 export interface ClearableSignal extends AbortSignal {
